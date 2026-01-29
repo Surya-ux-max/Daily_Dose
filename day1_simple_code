@@ -1,0 +1,11 @@
+#include<studio.h>
+int main(){
+  int customers = 0;
+  int arr[] = {1,1,1,-1,+1,-1,-1,1}; // get the in and out of customers in a +1 and -1 way respectively 
+
+  for(int i=0;i<8;i++){
+    customers+=arr[i];        // using assignment operators logically 
+}
+  printf("%d",customers);    // finally the result 
+
+  
