@@ -30,4 +30,16 @@ i = 0
 x = 0
 y = 2
 i = 2
+---------------------------------------------------------------------------------------
+
+✅ Answer (Interview Correct Answer)
+💻 Question
+int i = 5;
+printf("%d %d %d", i, i++, ++i);
+
+🎯 Final Answer
+
+👉 Undefined Behavior (UB)
+👉 No fixed output
+👉 Different compilers → Different result
 
